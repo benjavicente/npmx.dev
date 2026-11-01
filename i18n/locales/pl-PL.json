@@ -73,22 +73,6 @@
     "instant_search_turn_off": "wyłącz",
     "instant_search_advisory": "{label} {state} — {action}"
   },
-  "command_palette": {
-    "state": {},
-    "groups": {},
-    "actions": {},
-    "connections": {},
-    "navigation": {},
-    "links": {},
-    "package_links": {},
-    "theme": {},
-    "package": {},
-    "code": {},
-    "diff": {},
-    "version": {},
-    "status": {},
-    "announcements": {}
-  },
   "nav": {
     "main_navigation": "Główne",
     "popular_packages": "Popularne pakiety",
@@ -261,7 +245,6 @@
       "size": "Rozmiar instalacji wzrósł o {percent} ({size} więcej)",
       "deps": "{count} więcej zależności"
     },
-    "size_decrease": {},
     "replacement": {
       "title": "Możliwe, że nie potrzebujesz tej zależności.",
       "native": "Można to zastąpić {replacement}, dostępne od Node {nodeVersion}.",
@@ -417,11 +400,6 @@
         "general_description": "Wykres słupkowy pokazujący liczbę pobrań dla każdej z {versions_count} {semver_grouping_mode} wersji pakietu {package_name}, {date_range_label} od wersji {first_version} do wersji {last_version}. Najczęściej pobieraną wersją jest {max_downloaded_version}, pobrana została {max_version_downloads} razy. {per_version_analysis}. {watermark}."
       }
     },
-    "timeline": {
-      "chart": {
-        "copy_alt": {}
-      }
-    },
     "dependencies": {
       "title": "Zależności ({count})",
       "list_label": "Zależności pakietu",
@@ -458,7 +436,6 @@
       "show_less": "(pokaż mniej)"
     },
     "trends": {
-      "chart_assistive_text": {},
       "granularity": "Agregacja",
       "granularity_daily": "Dzienna",
       "granularity_weekly": "Tygodniowa",
@@ -606,11 +583,7 @@
       "b": "{size} B",
       "kb": "{size} kB",
       "mb": "{size} MB"
-    },
-    "download": {}
-  },
-  "leaderboard": {
-    "likes": {}
+    }
   },
   "connector": {
     "modal": {
@@ -1075,9 +1048,6 @@
       "packages_selected": "Wybrano pakiety: {count}/{max}.",
       "add_hint": "Dodaj co najmniej 2 pakiety do porównania."
     },
-    "scatter_chart": {
-      "copy_alt": {}
-    },
     "no_dependency": {
       "label": "(brak zależności)",
       "typeahead_title": "Co zrobiłby James?",
@@ -1152,10 +1122,7 @@
         "vulnerabilities": {
           "label": "Podatności",
           "description": "Znane luki bezpieczeństwa"
-        },
-        "githubStars": {},
-        "githubIssues": {},
-        "createdAt": {}
+        }
       },
       "values": {
         "any": "Dowolne",
@@ -1177,7 +1144,6 @@
     "lines_hidden": "ukryto {count} linii",
     "compare_versions": "porównaj",
     "compare_versions_title": "Porównaj z najnowszą wersją",
-    "version_invalid_url_format": {},
     "summary": "Podsumowanie",
     "deps_count": "{count} zależności",
     "dependencies": "Zależności",
@@ -1342,27 +1308,5 @@
       "p1": "Jeśli napotkasz barierę dostępności w {app}, daj nam znać, otwierając zgłoszenie w naszym {link}. Traktujemy takie zgłoszenia poważnie i zrobimy wszystko, co w naszej mocy, aby rozwiązać problem.",
       "link": "repozytorium GitHub"
     }
-  },
-  "translation_status": {
-    "table": {}
-  },
-  "vacations": {
-    "what": {},
-    "meantime": {},
-    "return": {},
-    "stats": {
-      "subtitle": {}
-    }
-  },
-  "action_bar": {},
-  "logo_menu": {},
-  "brand": {
-    "logos": {},
-    "customize": {},
-    "typography": {},
-    "guidelines": {}
-  },
-  "changelog": {
-    "error": {}
   }
 }
